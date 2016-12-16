@@ -1,12 +1,7 @@
-function changeba(){
-  document.getElementById('box').style.background="red";
+function changeba(box){
+  document.getElementById(box).style.backgroundColor="red";
 }
-function changebb(){
-  document.getElementById('box2').style.background="red";
+function changebb(box){
+  document.getElementById(box).style.backgroundColor="green";
 }
-function changebc(){
-  document.getElementById('box3').style.background="red";
-}
-function function_name() {
-  // body...
-}
+
